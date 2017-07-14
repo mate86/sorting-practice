@@ -8,7 +8,7 @@ import java.util.Random;
 public class CreateRandomList {
 
     public static List unsorted(int n) {
-        List<Integer> newList = new ArrayList<>();
+        List newList = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             newList.add(new Random().nextInt(99) + 1);
         }
@@ -16,7 +16,7 @@ public class CreateRandomList {
     }
 
     public static List sorted(int n) {
-        List<Integer> newList = new ArrayList<>();
+        List newList = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             newList.add(i + 1);
         }
